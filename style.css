@@ -1,0 +1,102 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+    text-decoration: none;
+
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(pexels-david-riaño-cortés-975771.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 8%;
+    
+}
+.container a h1{
+    cursor: pointer;
+    padding: 20px 0;
+    width: 120px;
+    color: rgb(217, 245, 217);
+}
+.content{
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    color:rgb(217, 245, 217) ;
+}
+.content h1{
+    font-size: 64px;
+    font-weight: 600;
+}
+.content h1 span{
+    color: rgb(3, 51, 3);
+}
+.content button{
+    background: rgb(18, 88, 18);
+    border: 2px solid rgb(3, 51, 3);
+    outline: none;
+    padding: 12px 25px;
+    color: white;
+    margin-top: 20px;
+    transition: 0.2s all linear;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.content button img{
+    width: 15px;
+    margin-left: 15px;
+}
+.content button:hover{
+    background: transparent;
+}
+.launch-time{
+    display: flex;
+}
+.launch-time div{
+    flex-basis: 100px;
+}
+.launch-time div p{
+    font-size: 60px;
+    margin-bottom: -5px;
+}
+/* .img{
+    background-image: url(pngwing.com (1).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+} */
+@media screen and (max-width:1200px){
+    .ele img{
+        height: 10px;
+        width: 100px;
+    }
+    .container{
+        overflow: hidden;
+    }
+}
+@media screen and (max-width:550px){
+    .container{
+        overflow: hidden;
+    }
+}
+@media screen and (max-width:460px){
+    .container{
+        overflow: hidden;
+    }
+}
+@media screen and (max-width:3780px){
+    .container{
+        overflow: hidden;
+    }
+}
+@media screen and (max-width:300px){
+    .container{
+        overflow: hidden;
+    }
+}
