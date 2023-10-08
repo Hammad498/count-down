@@ -1,2 +1,2 @@
 # count-down
-JS project which shows coutdown/timer before web launching.
+JS project (landing page) which shows coutdown/timer before web launching.
